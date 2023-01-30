@@ -1,0 +1,371 @@
+.body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+ }
+.header{
+    text-align: center;
+    margin-bottom: -160px;
+}
+.header .container{
+    background-image: url(../images/bg-header-desktop.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 0;
+}
+.header .container .image img{
+    margin-top: 70px;
+    margin-bottom:40px ;
+}
+
+.container .introtext{
+    position: absolute;
+    top: 42%;
+    left: 42%;
+    text-align: center;
+    width: 490px;
+    max-width: 100%;
+    transform: translate(-30%, -30%);
+    line-height: 1.5;
+
+}
+
+  .container .par{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color:   hsl(171, 66%, 44%);
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+}
+  .container .parr{
+    cursor: pointer;
+    border-radius: 35px;
+    background-color:  hsl(233, 100%, 69%);
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+ } 
+.services .container{
+    display: inline-block;
+    margin-top: 0;
+}
+.services .container .texts1 {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-left: 120px;
+}
+.services .container .image2{
+    width: 45%;
+    display: inline-block;
+}
+ .services .container .call{
+    display: flexbox;
+    float: right;
+    display: inline;
+    width: 50%;
+    width: 340px;
+    margin-left: 60px;
+    margin-top: 25px;
+   
+}
+.services .container .cal{
+    margin-top: 25px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+.section3{
+    text-align: center;
+}
+
+.section4 .container{
+    margin-top: 100px;
+   display: flexbox;
+   justify-content: space-between;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+ .section4 .container .feat{
+    display: inline-block;
+    margin-right: 30px;
+    width: 30%;
+    text-align: center;
+}
+.section4 .container .feat h3{
+    text-align: center;
+    position: relative;
+    left: 50px;
+}
+.section4 .container .feat p{
+    font-size: 15px;
+    position: relative;
+    left: 2px;
+
+}
+.section5 .container {
+    margin-top: 150px;
+    display: flex;
+   justify-content: space-between;
+   margin-left: 80px;
+   margin-right: 80px;
+}
+.section6 .container{
+    text-align: center;
+    margin-top: 150px ;
+}
+.section6 .container h1{
+    text-align: center;
+    position: relative;
+    margin-right: -500px;
+    font-size: 20px;
+    width: 280px;
+    margin-top: 100px;
+    left: 500px;
+}
+.section6 .container p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.section6 .container .par{
+    display: inline-block;
+}
+.section6 .container .parr{
+    display: inline-block;
+}
+
+
+.footer .container {
+    display: inline;
+    background-color:  #f5f6f8;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 0;
+  
+    flex-direction: row-reverse;
+}
+.footer .container .image5 img{
+  position: absolute;
+  right: 1100px;
+  width: 5%;
+  margin-top: 40px;
+  font-size: 20px;
+  
+
+}
+.footer .container .texts {
+    line-height: 2;
+    justify-content: space-between;
+    display: inline;
+    width: 33%;
+    margin-top: 40px;
+    right: 100px;
+}
+.footer .container .texts div {
+    display: flex;
+    display:inline-block;
+    right: 500px;
+    position: relative;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+.footer .container .texts .one{
+    display: inline-block;
+}
+.footer .container .texts .three{
+    position:relative;
+    bottom: 32px;
+}
+.footer .container .logos{
+    margin-top: 60px;
+    width: 33%;
+    position: relative;
+    text-align: center;
+    left: 500px;
+    justify-content: space-between;
+    
+}
+/* mobile  */
+@media(max-width:375px){
+    .container{
+        width: 750px;
+        display: block;
+    }
+    img{
+        width: 250px;
+    }
+    h1{
+        text-align: center;
+
+    }
+    p{
+        text-align: center;
+        width: 200px;
+    }
+    h3{
+        text-align: center;
+    }
+    .section5 .container{
+        display: block;
+        margin-right: 20px;
+        line-height: 3;
+        font-size: 20px;
+        width: 10px;
+        left: 20px;
+
+    }
+    .header .container .image img{
+        width: 60px;
+        width: 20%;
+        margin-left: 0;
+    }
+    .header .container .introtext h1{
+        text-align: center;
+        width: 250px;
+        font-size: 25px;
+    }
+    .header .container .introtext p{
+        text-align: center;
+        font-size: 12px;
+    }
+    .header .container .par{
+        display: block;
+        width: 200px;
+    }
+    .header .container .parr{
+        display: block;
+        width: 200px;
+    }
+    .services .container .texts1 h1{
+        width: 230px;
+        font-size: 25px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        left: -300px;
+        margin-top: 100px;
+    }
+    .services .container .texts1 p{
+        text-align: center;
+        font-size: 12px;
+        position: relative;
+        left: -100px;
+    }
+    .services .container .call {
+        display: block;
+        text-align: center;
+        position: relative;
+        width: 70px;
+        display: flexbox;
+        left: -650px;
+        margin-top: 300px;
+    }
+    .services .container .call .cal h3{
+        text-align: center;
+        margin-right: 60px;
+        font-size: 30px;
+        width: 250px;
+        position: relative;
+        left: -40px;
+    }
+    .services .container .call .cal p{
+        text-align: center;
+        margin-left: 30px;
+        position: relative;
+        left: -40px;
+    }
+    
+    .section3 p{
+        text-align: center;
+        margin-left: 60px;
+    }
+    .section4 .container .feat{
+        display: block
+    }
+    .section4 .container h3{
+        text-align: center;
+        margin-right: 100px;
+        font-size: 25px;
+        width: 200px;
+        position: relative;
+        
+
+    } .section4 .container p{
+        position: relative;
+        left: -50px;
+
+    }.section4 .container div{
+        display: block;
+    }
+    .section4 .container img{
+        text-align: center;
+        width: 30px;
+    }
+    .section5 .container div{
+        width: 170px;
+        font-size: 20px;
+        line-height: 1.8;
+        margin-top: 50px;
+        margin-right: 200px;
+        display: inline;
+        left: -50px;
+        position: relative;
+        margin-bottom: 100px;
+    }
+    .section6 .container h1{
+        width: 230px;
+        font-size: 25px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        right: 500px;
+        margin-top: 60px;
+        margin-left: 40px;
+
+    }
+    .section6 .container p{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .section6 .container .par{
+        display: block;
+        width: 200px;
+        margin-left: 40px;
+
+    }
+    .section6 .container .parr{
+        display: block;
+        width: 200px;
+        margin-left: 40px;
+
+    }
+    .footer .container .image5 img{
+        text-align: center;
+        display: inline;
+        position: relative;
+        left: -600px;
+        font-size: 20px;
+        width: 40px;
+    }
+    .footer .container .texts {
+        left: 70px;
+        position: relative;
+        margin-top: 100px;
+    }
+    .footer .container .logos img{
+        display: inline-block;
+        width: 20px;
+        font-size: 20px;
+        position: relative;
+        right: 700px;
+        margin-top: 250px;
+        line-height: 30px;
+        margin-right: 20px;
+        margin-left: 5px;
+    }
+ }
+
